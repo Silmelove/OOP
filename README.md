@@ -20,6 +20,6 @@
 2. Tạo project mới kiểu **Console App (C++)**.  
 3. Trong file `main.cpp` mà VS tạo sẵn, **xoá nội dung cũ**.  
 4. Copy toàn bộ code từ file bài tập (ví dụ `Car.cpp`) và dán vào `main.cpp`.  
-5. Nhấn **Ctrl + F5** để build và chạy chương trình. 
+5. Nhấn **F5** để build và chạy chương trình. 
 ## Tham khảo 
 - https://codelearn.io/home and ToggleChat trên Visual Studio code
