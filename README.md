@@ -23,3 +23,5 @@
 5. Nhấn **F5** để build và chạy chương trình. 
 ## Tham khảo 
 - https://codelearn.io/home and ToggleChat trên Visual Studio code
+<img width="1887" height="925" alt="image" src="https://github.com/user-attachments/assets/18605cb4-ce70-4067-9dfe-1c6ed1b4ae5a" />
+
