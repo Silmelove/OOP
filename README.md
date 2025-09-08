@@ -1,0 +1,6 @@
+# Small Clinic Management System
+
+## Khó khăn và Bài học rút ra  
+Trong quá trình làm bài, khó khăn lớn nhất là thiết kế mối quan hệ giữa các lớp sao cho hợp lý vì số lượng class khá nhiều (Patient, ChronicPatient, Doctor, Appointment, Clinic). Việc triển khai kế thừa và đa hình ban đầu cũng gây nhầm lẫn, đặc biệt khi override các hàm như scheduleAppointment. Ngoài ra, sử dụng con trỏ để quản lý bệnh nhân khiến mình phải chú ý đến bộ nhớ động, nếu không sẽ dễ bị rò rỉ. Việc quản lý trạng thái lịch hẹn bằng enum cũng cần xử lý cẩn thận để tránh in sai thông tin. Bên cạnh đó, vì code dài và chia thành nhiều class nên lúc debug logic mất khá nhiều thời gian. Tuy nhiên, qua bài này mình học được cách thiết kế class rõ ràng trước khi viết code sẽ giúp chương trình dễ triển khai hơn. Mình cũng hiểu rõ hơn về tầm quan trọng của kế thừa, đa hình, cũng như cách sử dụng enum class để quản lý trạng thái. Một bài học khác là nên dùng các công cụ quản lý bộ nhớ an toàn hơn như smart pointer thay vì con trỏ thô. Cuối cùng, mình thấy việc phân tách vai trò rõ ràng giữa bệnh nhân, bác sĩ và phòng khám giúp chương trình trở nên gọn gàng, dễ mở rộng và dễ bảo trì hơn.
+# Công cụ
+Dùng chatgpt để tham khảo và cũng như hiểu sâu bài toán hơn. Và học được cách viết code sao cho gọn, phát triển các lớp kế thừa sao cho hợp lí 
